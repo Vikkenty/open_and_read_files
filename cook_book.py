@@ -24,7 +24,7 @@ def get_shop_list_by_dishes(dishes, person_count):
                 shop_list.setdefault(ingredient_name, {'measure':measure, 'quantity': quantity})
         else:
             print(f"Блюда '{dish}' нет в кулинарной книге.")
-    # print(shop_list)
+    print(shop_list)
     return shop_list
 
 dishes = ['Омлет', 'Суп']
